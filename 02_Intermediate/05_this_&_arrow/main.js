@@ -9,3 +9,14 @@ const user = {
 }
 
 user.welcomeMessage();
+
+// function chai(){
+//     console.log(this)
+// }
+
+// chai()
+
+const chai = () => {
+    let username = 'animesh';
+    console.log(this.username)
+}
